@@ -25,6 +25,9 @@ Copy `server/bomberman.sample.yaml` to `~/.bomberman.yaml` and edit appropriatel
 ``` sh
 cd server
 stack build
+stack install
+cd ..
+export PATH $HOME/.local/bin:$PATH
 stack exec bomberman
 ```
 
